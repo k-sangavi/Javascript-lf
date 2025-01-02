@@ -7,6 +7,11 @@ const pi = 3.14
 var val = 10
 
 console.log("Your bill amount is Rs." + amount);
+console.log("hello world");
+alert("hello");
+document.write("<h1>hello world</h1>");
+var a=prompt ("ENTER A STRING INFORMATION");
+console.log(a);
 
         //  console.log('hello') to write this message in chrome console page (ctrl+shift+J)
         // alert("hiii") to write this meassage in alert type of message showed. 

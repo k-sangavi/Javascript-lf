@@ -7,7 +7,7 @@ const pi = 3.14
 var val = 10
 
 console.log("Your bill amount is Rs." + amount);
-console.log("hello world");
+console.log("Hello world");
 alert("hello");
 document.write("<h1>hello world</h1>");
 var a=prompt ("ENTER A STRING INFORMATION");

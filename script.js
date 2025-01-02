@@ -21,6 +21,17 @@ var a4="Javascript tutorials</br>";
 document.write(a3+a4);
 
 
+var c1;
+console.log(typeof c1);
+var c2=15;
+console.log(typeof c2);
+var c3="Hello";
+console.log(typeof c3);
+var c4=true;
+console.log(typeof c4);
+var c5=null;
+console.log(typeof c5);
+
 
         //  console.log('hello') to write this message in chrome console page (ctrl+shift+J)
         // alert("hiii") to write this meassage in alert type of message showed. 

@@ -80,9 +80,18 @@ var a=function(a,b){
 return a+b;
 }
 console.log (a(5,5));
-setTimeout(function(){console.log("this is anonymous function")}1000);
+setTimeout(function (){console.log("this is anonymous function")},1000);
 // Anonymous function does not have function name.
 
+// 3.Constructor Function
+var mul=new Function("a","b","c","return a*b*c;");
+console.log(mul(2,3,6));
+
+// 4.Self invoking Function
+(function (a,b){
+        console.log(a-b);
+
+})(2,6);
 
 
 

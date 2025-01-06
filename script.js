@@ -93,8 +93,67 @@ console.log(mul(2,3,6));
 
 })(2,6);
 
+// conditions in JavaScript
+// 1.IF  2. IF ELSE  3.  IF ELSE IF ELSE  4. NESTED IF  5. SWITCH
+
+// 1.if condition
+var v=50;
+if(v==50){
+        console.log("true");
+}
 
 
+var v=50;
+if(v/=50){
+        console.log("false");
 
-
+// console.log("true")  nothing shows in result.
+}
        
+
+// 2. if else condition
+else{
+        console.log("false");
+        // nothing shows.
+}
+
+// 3. if else if else
+//  when we check more than one conditions we use this.
+ if(v==50){
+        console.log("true");
+}
+else{
+        console.log("else part");
+
+}
+
+// 4. nested if condition
+// we check more than one condition we use this. (if(if))
+
+var m=70;
+if(m>35){
+        if(m>80){
+                console.log("a grade");
+        }
+        else{
+                console.log("b grade");
+        }
+}
+else{
+        console.log("fail");
+}
+
+
+// 5.switch conditions
+var v=parseInt(prompt("ENTER YOUR CHOICE"));
+switch(v){
+        case 1:
+        console.log("case 1");
+        break;
+        case 2:
+        console.log("case 2");
+        break;
+        default:
+        console.log("wrong entry!");
+
+}

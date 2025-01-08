@@ -157,3 +157,17 @@ switch(v){
         console.log("wrong entry!");
 
 }
+
+
+console.log("ARITHMETIC OPERATOR");
+console.log("add :"+(2+3));
+console.log("sub :"+(2-3));
+console.log("mul :"+(2*3));
+console.log("div :"+(2/3));
+console.log("mod :"+(2%3));
+
+console.log("INCREMENT / DECREMENT OPERATOR");
+var h1=2;
+h1++; 
+// h1=h1+1;
+console.log(h1);

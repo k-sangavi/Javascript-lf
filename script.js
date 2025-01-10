@@ -171,3 +171,153 @@ var h1=2;
 h1++; 
 // h1=h1+1;
 console.log(h1);
+var h2=2;
+h2--;
+// h2=h2-1;
+console.log(h2);
+
+console.log("ASSIGNMENT OPERATOR");
+// same as arithmetic operator
+var j1=4;
+j1+=5; 
+// j1=j1+5;
+console.log(j1);
+
+var j2=4;
+j2-=5;
+// j2=j2-5;
+console.log(j2);
+
+var j3=4;
+j3*=5;
+// j3=j3*5;
+console.log(j3);
+
+var j4=4;
+j4/=5;
+// j4=j4/5;
+console.log(j4);
+
+var j5=4;
+j5%=5;
+// j5=j5%5;
+console.log(j5);
+
+// console.log("string oeprator") same as arithmetic operator. string(+) and operator (2+3) adding. this is string concadination oeprator.
+
+console.log("comparison operator");
+var k1=3;
+var k2=5;
+if(k1<k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=3;
+var k2=5;
+if(k1>k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+
+var k1=3;
+var k2=5;
+if(k1==k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+// not equal to
+var k1=3;
+var k2=5;
+if(k1!=k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=5;
+var k2=5;
+//THE USES TO CHECK K1, K2 ARE SAME TYPE. (EX. BOTH IS NUMBER OR STRING,..)
+if(k1===k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=5;
+var k2="5";
+ if(k1===k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=3;
+var k2=5;
+ if(k1<=k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=5;
+var k2=5;
+ if(k1>=k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+console.log("BOOLEAN OPERATOR");
+var k1=5;
+var k2=5;
+ if(k1>=k2 && k1==k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+var k1=5;
+var k2=5;
+ if(k1>=k2 && k1!=k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=5;
+var k2=5;
+ if(k1>=k2 || k1!=k2){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+var k1=5;
+var k2=5;
+ if(|(k1>=k2 || k1!=k2)){
+        console.log("true");
+}
+else{
+        console.log("false");
+}
+
+
+console.log(TERNERY OPERATOR);
+
+console.log(2<3  true  : false);
+onsole.log(2>3  true  : false);

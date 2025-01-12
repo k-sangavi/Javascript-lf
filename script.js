@@ -299,7 +299,7 @@ else{
 }
 
 var k1=5;
-var k2=5;
+var k2=3;
  if(k1>=k2 || k1!=k2){
         console.log("true");
 }
@@ -309,15 +309,44 @@ else{
 
 var k1=5;
 var k2=5;
- if(|(k1>=k2 || k1!=k2)){
+ if((k1>=k2) || (k1==k2));
+        {
         console.log("true");
 }
-else{
-        console.log("false");
+{
+       console.log("false");
 }
 
 
-console.log(TERNERY OPERATOR);
+console.log("TERNERY OPERATOR");
 
-console.log(2<3  true  : false);
-onsole.log(2>3  true  : false);
+console.log(2<3 ? true : false);
+console.log(2>3 ? true : false);
+console.log(2<3 ? 0 : 1);
+console.log(2>3 ? 0 : 1);
+
+// Bitwise Operator  
+//  000000000000000000000000000010 = 2
+//                         8421
+//  000000000000000000000000000100 = 4
+
+// 1. Bitwise & operator
+console.log(2&4);
+// 0-0=0,0-1=0,1-0=0, 1-1=1
+ 
+// 2. or operator
+console.log(2|4);
+// 0-0=0. 0-1=1,1-0=1, 1-1=1
+// any one place having one value result is one
+
+// 3. Exar operator
+console.log(2^4);
+// 0-0=0, 0-1=1, 1-0=1, 1-1=0.
+
+//  4. Not operator
+console.log(~2);
+// ~ operators converys the value 0 are 1 and 1 are 0
+
+// 5. Left shift Operator
+console.log(2<<1);
+
